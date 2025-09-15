@@ -1,0 +1,7 @@
+{
+  "name": "My C++ Project",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-22.04",
+  "extensions": [
+    "ms-vscode.cpptools"
+  ]
+}

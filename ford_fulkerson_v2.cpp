@@ -104,8 +104,8 @@ int main() {
     cout << "\nThe maximum possible flow is: " << maxFlow << endl;
 
     cout << "\nEdges in the minimum cut are:\n";
-    for (const auto& edge : minCutEdges) {
-        cout << edge.first << " - " << edge.second << endl;
+    for (int i = 0; i < minCutEdges.size(); ++i) {
+    cout << minCutEdges[i].first << " - " << minCutEdges[i].second << endl;
     }
 
     return 0;
